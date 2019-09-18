@@ -15,5 +15,5 @@ jobs:
         java-version: 11.0
     - name: Build with Maven
       env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: mvn deploy
