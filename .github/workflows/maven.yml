@@ -16,5 +16,5 @@ jobs:
     - name: Build with Maven
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: mvn deploy -s ../.github/maven/settings.xml -DaltDeploymentRepository=github:default:https://maven.pkg.github.com/pauldaustin/testActions
+      run: mvn deploy -s .github/maven/settings.xml -DaltDeploymentRepository=github:default:https://maven.pkg.github.com/pauldaustin/testActions
 
