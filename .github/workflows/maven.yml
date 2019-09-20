@@ -16,4 +16,5 @@ jobs:
     - name: Build with Maven
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: mvn deploy -Dregistry=https://maven.pkg.github.com/pauldaustin/testActions -Dtoken=${GITHUB_TOKEN}
+      run: mvn deploy -DaltDeploymentRepository=github:default:https://maven.pkg.github.com/pauldaustin/testActions
+
