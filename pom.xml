@@ -5,7 +5,7 @@
   <artifactId>testActions</artifactId>
   <packaging>jar</packaging>
   <name>testActions</name>
-  <version>TRUNK-SNAPSHOT</version>
+  <version>DEMO</version>
   <build>
     <plugins>
       <plugin>
